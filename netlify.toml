@@ -1,0 +1,6 @@
+[[redirects]]
+  from = "/"
+  to = "/.netlify/functions/mainHandler"
+  status = 200
+  force = true
+  conditions = { method = ["POST", "GET", "OPTIONS"] }
